@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_migrate import Migrate
-
+from sqlite3 import dbapi2 as sqlite
 from models import db
 
 app = Flask(__name__)
